@@ -20,7 +20,12 @@ git add <filename> : this command adds the file <filename> to staging area.
 git commit -m "<message>" : commits all the files in the staging area. the commit messge should we writtern in present tense for eg:
                             "complete chapter 1"
 
+every commit has a unique hash code to it in order to differentiaite between each commits.
+after commiting the file, the file will not longer be in the staging area as it has been commited and is in our local git reposotory.
+
 git log : we can see the commits we have made using this command.
+
+git add . : adds all file inside the working directory to the stagng area.
 
 
 
