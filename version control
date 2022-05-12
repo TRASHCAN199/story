@@ -43,6 +43,9 @@ git push -u origin master : this pushes the local reposotory to the remote repos
                             and the local reposotory. then we are going to push it towards the remote reposotory called "origin" and 
                             we are goint to push it to branch master 
 
+the .gitignore file has the file names of all the files which will be ignored when commiting/ staging.
+we have to create the .gitignore file in the current directory.
+
 
 
 

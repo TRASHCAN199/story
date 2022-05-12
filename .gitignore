@@ -1,0 +1,7 @@
+#this is a comment
+
+#ignoring secrets file
+secrets.txt
+
+#ignoring all c files
+*.c
