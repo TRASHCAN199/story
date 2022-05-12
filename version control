@@ -32,6 +32,19 @@ git diff <filename> : this shows the content which has been deleted in the lates
 
 git checkout <filename> : this will roll back the file <filename> to the last/latest version which was commited in our local reposotary. 
 
+we can push an exsiting local reposotory in our computer to a remote reposotory on the internet
+
+git remote add origin <url> : this command tells our local git reposotory that we have created a remote reposotary named "origin" at <url>
+                              theoreticaly you can name "origin" what ever you want, but as convention we name it origin.
+
+the master branch is the default/main branch of our commits
+
+git push -u origin master : this pushes the local reposotory to the remote reposotory using the -u flag/option which links up the remote 
+                            and the local reposotory. then we are going to push it towards the remote reposotory called "origin" and 
+                            we are goint to push it to branch master 
+
+
+
 
 
 
