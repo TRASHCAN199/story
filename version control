@@ -1,0 +1,28 @@
+version control:
+let assume that we want to creat a new file and write a few lines in it. And now we decide to put in under version control using git 
+and we call the save point as no.1. later on as we progress we write few more lines of code and we decide to make an other save point 
+called sace point no.2 . further down the line we acdentally mess up the code to the point where we would start from scratch rather than 
+continue our code, so we simply want to role back to the last save point. we can do that using git. we can compare the current code file 
+with the previous versions that we have made or alternatively we can roll back to previous versions. 
+
+commands:
+git init : this command initiallizes an empty git reposotory inside the working directory/ current directory
+
+ls -a : shows all files incuding hidden files
+
+in order to start tracking the chages in the files, then we need to add the files to what is called a staging area. it is basically an 
+intermediate place where we can pick and choose which files inside the working directory we want to commite.
+
+git status : shows which files are in staging area (shown in green) and which files are not in staging area (shown in red)
+
+git add <filename> : this command adds the file <filename> to staging area.
+
+git commit -m "<message>" : commits all the files in the staging area. the commit messge should we writtern in present tense for eg:
+                            "complete chapter 1"
+
+git log : we can see the commits we have made using this command.
+
+
+
+
+
