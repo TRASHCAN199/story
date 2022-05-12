@@ -37,7 +37,7 @@ we can push an exsiting local reposotory in our computer to a remote reposotory 
 git remote add origin <url> : this command tells our local git reposotory that we have created a remote reposotary named "origin" at <url>
                               theoreticaly you can name "origin" what ever you want, but as convention we name it origin.
 
-the master branch is the default/main branch of our commits
+the master branch is the default/main branch of our commits/ save points. it is sequential and it is where are main progress is saved/commited.
 
 git push -u origin master : this pushes the local reposotory to the remote reposotory using the -u flag/option which links up the remote 
                             and the local reposotory. then we are going to push it towards the remote reposotory called "origin" and 
