@@ -27,6 +27,11 @@ git log : we can see the commits we have made using this command.
 
 git add . : adds all file inside the working directory to the stagng area.
 
+git diff <filename> : this shows the content which has been deleted in the latest commit/version and the content which has been added to 
+                      it.
+
+git checkout <filename> : this will roll back the file <filename> to the last/latest version which was commited in our local reposotary. 
+
 
 
 
