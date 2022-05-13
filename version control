@@ -46,9 +46,21 @@ git push -u origin master : this pushes the local reposotory to the remote repos
 the .gitignore file has the file names of all the files which will be ignored when commiting/ staging.
 we have to create the .gitignore file in the current directory.
 
+git clone <url> : this statement will download a remote reposotory into a computer and make it a local reposotory.
 
 
+we can create a side barnch instead of the master branch. we can continue working on this side brach or the master branch. now we have 2 
+branches that are parellel to each other and can be developed simultaniously. so if the side branch project was successful then we could
+merge it to our main branch using a merge request
 
+git branch <branch_name> : this will create a new branch from the existing branch called <branch_name>
 
+git branch : this will tell us how any branches we have. the current branch we are on will be shown with astrick (*).
+
+git checkout <branch_name> : this command will switch from one bracch to the branch name <branch_name>
+
+git merge <branch_name> : this will merge the branch <branch_name> with the master branch. NOTE that the command should
+                          ONLY BE USED WHEN WE ARE ON MASTER BRANCH. after this command, the comman prompt will open vim to 
+                          to allow you to add a merge message. alternatively we can just leave it empty. we can write :q! to exit vim.
 
 
