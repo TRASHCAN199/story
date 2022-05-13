@@ -63,4 +63,10 @@ git merge <branch_name> : this will merge the branch <branch_name> with the mast
                           ONLY BE USED WHEN WE ARE ON MASTER BRANCH. after this command, the comman prompt will open vim to 
                           to allow you to add a merge message. alternatively we can just leave it empty. we can write :q! to exit vim.
 
+you can do the following using github website: 
 
+forking: forking is make a copy of others reposotory and making it your own. you can then modify it or do what ever you want with it
+
+pull request: if we made good change on the forked reposotory and the owner likes it, he can make his reposotory exactly like the modified
+              fork reposotory by approving our pull request. a pull request is like making a sugesssion that the modified fork we 
+              made is better so please encoperate it into your own project by approving our pull request.
